@@ -1,2 +1,4 @@
 # portfolio-html
-Only HTML, No CSS | Take Home Task Web Programming Week 2 
+THT Week 2:<br>
+**Nama: Benony Gabriel**<br>
+**NIM: 105222002**
