@@ -97,6 +97,7 @@ body {
 
   a{
     text-decoration: none;
+    
   }
 
   .artikel{
@@ -104,6 +105,20 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    width: 400px;
-                  
+    width: 400px;  
+    border-radius: 4px;       
+  }
+
+  .button{
+    padding: 10px;
+    /* margin: 15px; */
+    background-color: rgb(255, 208, 0);
+    width: max-content;
+    border-radius: 4px;
+    color: #000;
+  }
+
+  .button:hover {
+    background-color:  rgb(163, 141, 0);
+    color: rgb(255, 255, 255);
   }
