@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Benony</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+
+      .sidebar {
+        padding: 50px;
+        background-color: rgb(80, 89, 139);
+        height: 100vh;
+        margin-right: 70px;
+        border-right: 3px solid rgba(66, 66, 77, 0.593);
+      }
+      .profileIMG {
+        border-radius: 50%;
+        border: 2px solid rgb(209, 181, 0);
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+      }
+      .nav {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-link {
+        text-decoration: none;
+        margin: 10px;
+        background-color: rgb(255, 253, 205);
+        padding: 15px;
+        text-align: center;
+      }
+
+      .content {
+        margin-top: 50px;
+        margin-right: 200px;
+      }
+
+      p {
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <img
+          class="profileIMG"
+          src="assets/img/profile.jpg"
+          alt="profile benony"
+          width="200px"
+        />
+
+        <div class="nav">
+          <a class="nav-link" href="">About me</a>
+          <a class="nav-link" href="">Portfolio</a>
+          <a class="nav-link" href="">Blog</a>
+          <a class="nav-link" href="">Contact</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Benony Gabriel</h1>
+        <h3>Hi, there 👋 I’m Beno</h3>
+        <p>
+          I am a Computer Science student with a primary interest in web and
+          mobile app development and Cyber Security. I am consistently active in
+          enhancing my understanding and skills in this field.
+        </p>
+        <p>
+          Currently, I am studying web and mobile app development,
+          cybersecurity, machine learning and artificial intelligence. With a
+          dedication to achieving higher accomplishments, I am continually
+          seeking opportunities to broaden my experience in the professional
+          world. Discover more on my
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
