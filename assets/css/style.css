@@ -109,16 +109,17 @@ body {
     border-radius: 4px;       
   }
 
-  .button{
+  .button, .btn-submit{
     padding: 10px;
     /* margin: 15px; */
     background-color: rgb(255, 208, 0);
     width: max-content;
     border-radius: 4px;
     color: #000;
+    cursor: pointer;
   }
 
-  .button:hover {
+  .button:hover, .btn-submit:hover {
     background-color:  rgb(163, 141, 0);
     color: rgb(255, 255, 255);
   }
@@ -132,4 +133,15 @@ body {
     border-radius: 4px; 
     display: flex;
     flex-direction: row;
+  }
+
+  input, textarea{
+    padding: 15px;
+    border-radius: 4px;
+    /* margin-left: 15px; */
+  }
+
+  .input-fullname, .input-email{
+    margin-top: 10px;
+    width: 200px;
   }
