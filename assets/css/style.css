@@ -100,7 +100,7 @@ body {
     
   }
 
-  .artikel{
+  .portfolio-card{
     background-color: rgb(0, 200, 255);
     padding: 20px;
     display: flex;
@@ -121,4 +121,15 @@ body {
   .button:hover {
     background-color:  rgb(163, 141, 0);
     color: rgb(255, 255, 255);
+  }
+
+  .blog-card{
+    background-color: rgb(0, 200, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    border-radius: 4px; 
+    display: flex;
+    flex-direction: row;
   }
