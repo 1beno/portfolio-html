@@ -84,6 +84,11 @@ nav .nav-links .portfolio-aktif {
   color: white;
 }
 
+nav .nav-links a:hover {
+  background-color: rgb(163, 141, 0);
+  color: white;
+}
+
 main {
   padding: 0 60px;
   grid-area: main;
