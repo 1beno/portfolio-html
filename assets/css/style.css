@@ -75,7 +75,10 @@ nav .socials a {
   margin: 0 10px;
 }
 
-nav .nav-links .home {
+nav .nav-links .home-aktif,
+nav .nav-links .blog-aktif,
+nav .nav-links .contact-aktif,
+nav .nav-links .portfolio-aktif {
   background-color: rgb(163, 141, 0);
   border: 2px solid rgb(173, 173, 173);
   color: white;
@@ -110,14 +113,4 @@ blockquote::after {
 
 main .quote-author {
   font-family: georgia;
-}
-
-main section,
-header h1 {
-  display: none;
-}
-
-main section:target,
-header h1:target {
-  display: block;
 }
