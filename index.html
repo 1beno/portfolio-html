@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4 fixed w-full z-10 top-0">
+      <div class="container mx-auto flex justify-between">
+        <h1 class="text-2xl font-bold">My Portfolio</h1>
+        <ul class="flex space-x-4">
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+          <li><a href="#blog" class="hover:underline">Blog</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="my-20 px-4 pt-16">
+      <img src="" alt="" />
+      <h2 class="text-3xl font-semibold text-center">About Me</h2>
+      <p class="mt-4 text-center">
+        Hello! I'm a web developer with a passion for creating beautiful and
+        functional websites. I love coding and enjoy learning new technologies.
+      </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-200">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4">My Work</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="font-bold">Project 1</h3>
+            <p>A brief description of project 1.</p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="font-bold">Project 2</h3>
+            <p>A brief description of project 2.</p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="font-bold">Project 3</h3>
+            <p>A brief description of project 3.</p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="font-bold">Project 4</h3>
+            <p>A brief description of project 4.</p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="font-bold">Project 5</h3>
+            <p>A brief description of project 5.</p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="font-bold">Project 6</h3>
+            <p>A brief description of project 6.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4">My Blog</h2>
+        <div class="space-y-4">
+          <div class="bg-gray-200 p-4 rounded shadow">
+            <h3 class="font-bold">Blog Post 1</h3>
+            <p>A brief summary of blog post 1.</p>
+          </div>
+          <div class="bg-gray-200 p-4 rounded shadow">
+            <h3 class="font-bold">Blog Post 2</h3>
+            <p>A brief summary of blog post 2.</p>
+          </div>
+          <div class="bg-gray-200 p-4 rounded shadow">
+            <h3 class="font-bold">Blog Post 3</h3>
+            <p>A brief summary of blog post 3.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="my-10 px-4">
+      <h2 class="text-2xl font-semibold text-center">Contact Me</h2>
+      <form class="mt-4 max-w-md mx-auto">
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="border border-gray-300 p-2 w-full mb-4 rounded"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="border border-gray-300 p-2 w-full mb-4 rounded"
+        />
+        <textarea
+          placeholder="Your Message"
+          class="border border-gray-300 p-2 w-full mb-4 rounded"
+          rows="4"
+        ></textarea>
+        <button type="submit" class="bg-gray-800 text-white p-2 rounded w-full">
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+      <p>&copy; 2023 My Portfolio. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
