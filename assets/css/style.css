@@ -167,3 +167,20 @@ main .quote-author {
   flex-direction: row;
   margin-bottom: 30px;
 }
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 4px;
+  /* margin-left: 15px; */
+}
+
+.input-fullname,
+.input-email {
+  margin-top: 10px;
+  width: 200px;
+}
+
+iframe {
+  margin-right: 20px;
+}
