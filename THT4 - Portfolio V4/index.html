@@ -170,22 +170,42 @@
     <!-- Contact Section -->
     <section id="contact" class="my-10 px-4">
       <h2 class="text-2xl font-semibold text-center">Contact Me</h2>
-      <form class="mt-4 max-w-md mx-auto">
+      <form class="mt-4 max-w-md mx-auto" id="contactForm">
+        <label for="nama">Nama</label>
         <input
+          id="nama"
           type="text"
           placeholder="Your Name"
-          class="border border-gray-300 p-2 w-full mb-4 rounded"
+          class="border border-gray-300 p-2 w-full rounded"
         />
+        <span id="namaError" class="text-red-500 text-sm"></span> <br /><br />
+
+        <label for="email">Email</label>
         <input
+          id="email"
           type="email"
           placeholder="Your Email"
-          class="border border-gray-300 p-2 w-full mb-4 rounded"
+          class="border border-gray-300 p-2 w-full rounded"
         />
+        <span id="emailError" class="text-red-500 text-sm"></span><br /><br />
+
+        <label for="wa">WhatsApp</label>
+        <input
+          id="wa"
+          type="number"
+          placeholder="Your WhatsApp Number"
+          class="border border-gray-300 p-2 w-full rounded"
+        />
+        <span id="nomorHpError" class="text-red-500 text-sm"></span><br /><br />
+
+        <label for="message">Your Message</label>
         <textarea
+          id="message"
           placeholder="Your Message"
-          class="border border-gray-300 p-2 w-full mb-4 rounded"
+          class="border border-gray-300 p-2 w-full rounded"
           rows="4"
         ></textarea>
+        <span id="messageError" class="text-red-500 text-sm"></span><br /><br />
         <button type="submit" class="bg-gray-800 text-white p-2 rounded w-full">
           Send Message
         </button>
@@ -196,5 +216,8 @@
     <footer class="bg-gray-800 text-white p-4 text-center">
       <p>&copy; 2023 My Portfolio. All Rights Reserved.</p>
     </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
   </body>
 </html>
