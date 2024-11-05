@@ -1,15 +1,15 @@
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form from submitting
+    event.preventDefault(); // utk mencegah formulir terkirim
 
-    // Get form values
+    // ambil nilai input melalui id
     const nama = document.getElementById("nama").value;
     const email = document.getElementById("email").value;
     const nomorWa = document.getElementById("wa").value;
     const message = document.getElementById("message").value;
 
-    // Reset error messages
+    // Reset pesan error
     document.getElementById("namaError").innerText = "";
     document.getElementById("emailError").innerText = "";
     document.getElementById("nomorHpError").innerText = "";
@@ -17,7 +17,7 @@ document
 
     let isValid = true;
 
-    // Validation
+    // Validasi form
     if (!nama) {
       document.getElementById("namaError").innerText = "Nama wajib diisi!";
       isValid = false;
@@ -47,7 +47,7 @@ document
       isValid = false;
     }
 
-    // If valid, send data to WhatsApp
+    // jika data input valid, kirim ke whatsapp
     if (isValid) {
       const whatsappUrl = `https://wa.me/6282190919659?text=
                     Nama:%20${encodeURIComponent(nama)}%0A
