@@ -1,55 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Benony</title>
-    <link href="./src/css/output.css" rel="stylesheet" />
-    <!-- <link href="./src/css/style.css" rel="stylesheet" /> -->
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <!-- Hero Section Start -->
-    <section id="home" class="pt-36">
-      <div class="container">
-        <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
-            <h1
-              class="text-base font-semibold text-primary md:text-lg lg:text-2xl"
-            >
-              Halo Semua 👋, saya
-              <span class="block text-dark text-4xl font-bold lg:text-5xl"
-                >Benony Gabriel</span
-              >
-            </h1>
-            <h2
-              class="font-medium text-secondary text-lg mb-5 mt-1 lg:mt-3 lg:text-xl"
-            >
-              Mahasiswa Ilmu Komputer | Universitas Pertamina
-            </h2>
-            <p class="mb-10 text-slate-700 leading-relaxed">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Obcaecati dolor ducimus maiores dicta, exercitationem impedit.
-            </p>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4 fixed w-full z-10 top-0">
+      <div class="container mx-auto flex justify-between">
+        <h1 class="text-2xl font-bold">My Portfolio</h1>
+        <ul class="flex space-x-4">
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+          <li><a href="#blog" class="hover:underline">Blog</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-            <a
-              href="#"
-              class="text-base font-semibold bg-primary text-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-150 ease-in-out"
-            >
-              Hubungi Saya</a
-            >
+    <!-- About Section -->
+    <section id="about" class="my-20 px-4 pt-16 flex justify-center flex-col">
+      <h2 class="text-3xl font-semibold text-center">About Me</h2>
+      <img
+        src="img/profile.jpg"
+        alt="foto profile"
+        class="h-52 w-auto object-cover rounded-full mx-auto mt-6 mb-6"
+      />
+      <p class="mt-2 text-center font-semibold">Benony Gabriel</p>
+      <p class="mt-4 text-center">
+        Hello! I'm a web developer with a passion for creating beautiful and
+        functional websites. I love coding and enjoy learning new technologies.
+      </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-200">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4">My Work</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-white p-4 shadow rounded flex items-center max-w-lg">
+            <img
+              src="img/p1.png"
+              alt="portfolio1"
+              class="w-40 h-40 object-cover rounded-md mr-4"
+            />
+            <div>
+              <h3 class="text-lg font-bold">Project 1</h3>
+              <p class="text-gray-600 mt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                aliquam dignissimos cum architecto nulla quisquam?
+              </p>
+            </div>
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="relative mt-10 lg:mt-0 lg:right-0">
-              <img
-                src="src/assets/img/profile-pic.png"
-                alt="foto Benony"
-                class="max-w-full mx-auto"
-              />
+          <div class="bg-white p-4 shadow rounded flex items-center max-w-lg">
+            <img
+              src="img/p2.png"
+              alt="portfolio1"
+              class="w-40 h-40 object-cover rounded-md mr-4"
+            />
+            <div>
+              <h3 class="text-lg font-bold">Project 2</h3>
+              <p class="text-gray-600 mt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                aliquam dignissimos cum architecto nulla quisquam?
+              </p>
+            </div>
+          </div>
+          <div class="bg-white p-4 shadow rounded flex items-center max-w-lg">
+            <img
+              src="img/p3.png"
+              alt="portfolio1"
+              class="w-40 h-40 object-cover rounded-md mr-4"
+            />
+            <div>
+              <h3 class="text-lg font-bold">Project 3</h3>
+              <p class="text-gray-600 mt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                aliquam dignissimos cum architecto nulla quisquam?
+              </p>
+            </div>
+          </div>
+          <div class="bg-white p-4 shadow rounded flex items-center max-w-lg">
+            <img
+              src="img/p4.png"
+              alt="portfolio1"
+              class="w-40 h-40 object-cover rounded-md mr-4"
+            />
+            <div>
+              <h3 class="text-lg font-bold">Project 4</h3>
+              <p class="text-gray-600 mt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                aliquam dignissimos cum architecto nulla quisquam?
+              </p>
+            </div>
+          </div>
+          <div class="bg-white p-4 shadow rounded flex items-center max-w-lg">
+            <img
+              src="img/p1.png"
+              alt="portfolio1"
+              class="w-40 h-40 object-cover rounded-md mr-4"
+            />
+            <div>
+              <h3 class="text-lg font-bold">Project 5</h3>
+              <p class="text-gray-600 mt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                aliquam dignissimos cum architecto nulla quisquam?
+              </p>
+            </div>
+          </div>
+          <div class="bg-white p-4 shadow rounded flex items-center max-w-lg">
+            <img
+              src="img/p2.png"
+              alt="portfolio1"
+              class="w-40 h-40 object-cover rounded-md mr-4"
+            />
+            <div>
+              <h3 class="text-lg font-bold">Project 6</h3>
+              <p class="text-gray-600 mt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                aliquam dignissimos cum architecto nulla quisquam?
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Hero Section End -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4">My Blog</h2>
+        <div class="space-y-4">
+          <div class="bg-gray-200 p-4 rounded shadow">
+            <h3 class="font-bold">Blog Post 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+              eum accusamus, officia et nam, temporibus debitis sint impedit
+              enim tempore in officiis ea velit aliquid? Nobis culpa voluptas
+              ullam suscipit.
+            </p>
+          </div>
+          <div class="bg-gray-200 p-4 rounded shadow">
+            <h3 class="font-bold">Blog Post 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              perspiciatis molestias ad deleniti debitis iste sit exercitationem
+              magnam nihil sed!
+            </p>
+          </div>
+          <div class="bg-gray-200 p-4 rounded shadow">
+            <h3 class="font-bold">Blog Post 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              dolores ex sapiente officia deleniti, nam pariatur libero!
+              Voluptas fuga ipsum, aperiam fugit commodi unde labore ipsam
+              aliquam perferendis corrupti minus doloremque non cupiditate!
+              Delectus, doloribus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="my-10 px-4">
+      <h2 class="text-2xl font-semibold text-center">Contact Me</h2>
+      <form class="mt-4 max-w-md mx-auto" id="contactForm">
+        <label for="nama">Nama</label>
+        <input
+          id="nama"
+          type="text"
+          placeholder="Your Name"
+          class="border border-gray-300 p-2 w-full rounded"
+        />
+        <span id="namaError" class="text-red-500 text-sm"></span> <br /><br />
+
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Your Email"
+          class="border border-gray-300 p-2 w-full rounded"
+        />
+        <span id="emailError" class="text-red-500 text-sm"></span><br /><br />
+
+        <label for="wa">WhatsApp</label>
+        <input
+          id="wa"
+          type="number"
+          placeholder="Your WhatsApp Number"
+          class="border border-gray-300 p-2 w-full rounded"
+        />
+        <span id="nomorHpError" class="text-red-500 text-sm"></span><br /><br />
+
+        <label for="message">Your Message</label>
+        <textarea
+          id="message"
+          placeholder="Your Message"
+          class="border border-gray-300 p-2 w-full rounded"
+          rows="4"
+        ></textarea>
+        <span id="messageError" class="text-red-500 text-sm"></span><br /><br />
+        <button type="submit" class="bg-gray-800 text-white p-2 rounded w-full">
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+      <p>&copy; 2023 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
   </body>
 </html>
