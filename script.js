@@ -1,3 +1,13 @@
+function changeVersion() {
+  var selectElement = document.getElementById("versions");
+  var selectedVersion = selectElement.value;
+
+  // Redirect ke halaman yang dipilih
+  if (selectedVersion) {
+    window.location.href = selectedVersion;
+  }
+}
+
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {

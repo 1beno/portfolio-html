@@ -19,6 +19,29 @@
           <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
           <li><a href="#blog" class="hover:underline">Blog</a></li>
           <li><a href="#contact" class="hover:underline">Contact</a></li>
+          <li>
+            <div class="change-versions">
+              <label for="versions" class="ml-10"></label>
+              <select class="text-black" name="versions" id="versions">
+                <option value="THT1%20-%20Portfolio%20V1/index.html">
+                  Versi THT 1
+                </option>
+                <option value="THT2%20-%20Portfolio%20V2/index.html">
+                  Versi THT 2
+                </option>
+                <option value="THT3%20-%20Portfolio%20V3/index.html">
+                  Versi THT 3
+                </option>
+              </select>
+              <button
+                type="button"
+                onclick="changeVersion()"
+                class="bg-yellow-500 pl-3 pr-3 rounded-md hover:bg-yellow-600"
+              >
+                Ganti versi
+              </button>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
